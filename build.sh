@@ -2,6 +2,8 @@
 # exit on error
 set -o errexit
 
+sudo apt-get install python3-tk
+
 pip install --upgrade pip
 
 pip install -r requirements.txt
